@@ -1,22 +1,19 @@
 import React from "react";
-import imagePainting from "../images/painting.jpg";
 import star from "../images/star.png";
 
-// TODO:
-// Make this more reusable with props.
-function Card() {
+function Card(props) {
   return (
     <div className="card">
-      <img className="card-image" src={imagePainting} />
+      <img className="card-image" src={props.image} />
       <div className="card-stats">
         <img className="card-star" src={star} />
-        <span>4.7</span>
-        <span className="gray">(25) • </span>
-        <span className="gray">USA</span>
+        <span>{props.rating}</span>
+        <span className="gray">({props.reviewCount}) • </span>
+        <span className="gray">{props.country}</span>
       </div>
-      <p>Learn professional Painting</p>
+      <p>{props.title}</p>
       <p>
-        <span className="bold">From $75</span> / person{" "}
+        <span className="bold">From ${props.price}</span> / person{" "}
       </p>
     </div>
   );
