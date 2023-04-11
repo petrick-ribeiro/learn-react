@@ -1,7 +1,7 @@
 export default [
   {
     id: 0,
-    title: "Learn professional Painting",
+    title: "Learn professional painting",
     description:
       "Interested in becoming a professional artist? Join our painting classes.",
     price: 75,
@@ -16,7 +16,7 @@ export default [
 
   {
     id: 1,
-    title: "Guitar lessons",
+    title: "Guitar lessons with Bob",
     description: "Join my guitar lessons and get started in the music world!",
     price: 50,
     coverImg: "guitar_lesson.jpg",
@@ -24,7 +24,7 @@ export default [
       rating: 4.3,
       reviewCount: 15,
     },
-    location: "Online",
+    location: "USA",
     openSpots: 10,
   },
 
@@ -41,5 +41,49 @@ export default [
     },
     location: "Online",
     openSpots: 4,
+  },
+
+  {
+    id: 3,
+    title: "Learn Photography concepts",
+    description:
+      "Come and improve your photography skills and capture amazing moments with us in our photography classes.",
+    price: 64,
+    coverImg: "photography.jpg",
+    stats: {
+      rating: 3.9,
+      reviewCount: 23,
+    },
+    location: "Online",
+    openSpots: 3,
+  },
+
+  {
+    id: 4,
+    title: "Cooking masterclass",
+    description: "Join our cooking classes with a professional chef.",
+    price: 100,
+    coverImg: "cooking.jpg",
+    stats: {
+      rating: 4.9,
+      reviewCount: 53,
+    },
+    location: "Online",
+    openSpots: 0,
+  },
+
+  {
+    id: 5,
+    title: "Mountain Bike Experience",
+    description:
+      "Join us for an exhilarating mountain biking adventure and explore the great outdoors like never before!",
+    price: 120,
+    coverImg: "mountain_bike.jpg",
+    stats: {
+      rating: 4.8,
+      reviewCount: 255,
+    },
+    location: "USA",
+    openSpots: 10,
   },
 ];
