@@ -1,8 +1,8 @@
 export default [
   {
     id: 0,
-    title: "Trevi Fountain",
-    location: "Italy",
+    title: "Fontana di Trevi",
+    location: "ITALY",
     googleMapsUrl: "https://goo.gl/maps/mBz8dP97hQP2Q8PfA",
     startDate: "24 Jan, 2022",
     endDate: "05 Feb, 2022",
@@ -14,7 +14,7 @@ export default [
   {
     id: 1,
     title: "Mont Saint-Michel",
-    location: "France",
+    location: "FRANCE",
     googleMapsUrl: "https://goo.gl/maps/ZzyZFMdABztbqwzG6",
     startDate: "15 Feb, 2022",
     endDate: "17 Feb, 2022",
@@ -26,7 +26,7 @@ export default [
   {
     id: 2,
     title: "Notre Dame",
-    location: "France",
+    location: "FRANCE",
     googleMapsUrl: "https://goo.gl/maps/YCwS3EfYTh3SgJ4D8",
     startDate: "20 Feb, 2022",
     endDate: "23 Feb, 2022",
